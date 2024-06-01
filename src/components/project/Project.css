@@ -1,0 +1,8 @@
+/* Project.css */
+.project {
+  width: 80%;
+  margin: 0 auto;
+  height: 250vh;
+  background-color: #ccffcc; /* Different background color */
+  padding: 20px;
+}

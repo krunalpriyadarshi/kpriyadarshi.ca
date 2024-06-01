@@ -1,0 +1,74 @@
+/* SkillsShowcase.css */
+
+.skills-showcase {
+    padding: 40px;
+    background-color: #e0f7fa; /* Different background color */
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    overflow: hidden; /* Hide the overflow to create a smooth scrolling effect */
+  }
+  
+  .skills-showcase h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #00796b; /* Header color */
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    animation: scroll 20s linear infinite;
+    margin-bottom: 30px; 
+  }
+
+  .unique-effect{
+    animation: scroll2 20s linear infinite;
+  }
+  
+  .skill-item {
+    flex: 0 0 auto; /* Prevent flex items from shrinking */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 20px; /* Space between items */
+  }
+  
+  .skill-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  @keyframes scroll2 {
+    0% {
+      transform: translateX(5%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

@@ -1,37 +1,30 @@
-/* NavigationBar.css */
-
-/* Common styles */
 .navigation-bar {
   width: 60%;
   min-width: 900px;
   margin: auto;
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
   border-radius: 10px;
-  position: sticky; /* Make the navigation bar sticky */
-  top: 15px; /* Leave a 10px space above */
-  z-index: 1000; /* Ensure it is on top of other elements */
-  transition: background-color 0.3s ease; /* Smooth transition for background color */
-  background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
-  backdrop-filter: blur(5px); /* Blur effect for the frosted glass effect */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border for the frosted glass look */
+  position: sticky;
+  top: 15px;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .navigation-bar.light {
-  background: rgba(255, 255, 255, 0.2); /* Light mode frosted glass background */
-}
-
-.navigation-bar.dark {
-  background: rgba(24, 24, 27, 0.2); /* Dark mode frosted glass background */
+  background: rgba(255, 255, 255, 0.2);
 }
 
 .left-section {
   display: flex;
   align-items: center;
-  font-weight: bold;
 }
 
 .right-section {
@@ -39,14 +32,13 @@
   gap: 15px;
 }
 
-.name {
+.nav-name {
   margin: 0;
+  margin-left: 20px;
+  line-gap-override: 5px;
+  letter-spacing: 3px;
   font-size: 1.5rem;
-  color: #333; /* Light mode text color */
-}
-
-.navigation-bar.dark .name {
-  color: #eee; /* Dark mode text color */
+  color: #ffffff;
 }
 
 .icon {
@@ -57,5 +49,5 @@
 }
 
 .glow:hover {
-  filter: drop-shadow(0px 0px 20px rgba(199, 0, 234, 0.7)); /* Glow effect on hover */
+  filter: drop-shadow(0px 0px 20px rgba(199, 0, 234, 0.7));
 }

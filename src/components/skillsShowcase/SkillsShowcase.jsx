@@ -1,9 +1,10 @@
+// SkillsShowcase.jsx
 import React from 'react';
 import './SkillsShowcase.css';
 
 const skills_set1 = [
-    { "name": "JMeter", "icon": "src/assets/tools/jmeter-icon.png" },
-    { "name": "Spring Boot", "icon": "src/assets/tools/spring-boot-icon.png" },
+    { "name": "JMeter", "icon": "fa-brands fa-java" },
+    { "name": "Spring Boot", "icon": "fa-java" },
     { "name": "NoSQL (MongoDB)", "icon": "src/assets/tools/mongodb-icon.png" },
     { "name": "Java", "icon": "src/assets/tools/java-icon.png" },
     { "name": "HTML/CSS", "icon": "src/assets/tools/html-css-icon.png" },
@@ -29,7 +30,7 @@ const skills_set2 = [
     { "name": "Visual Studio Code", "icon": "src/assets/tools/vscode-icon.png" },
     { "name": "Postman", "icon": "src/assets/tools/postman-icon.png" },
     { "name": "Dynatrace", "icon": "src/assets/tools/dynatrace-icon.png" },
-    { "name": "Kanban", "icon": "src/assets/tools/kanban-icon.png" },
+    { "name": "Kanban", "icon": "src/assets/tools/kanban.png" },
     { "name": "RESTful API", "icon": "src/assets/tools/restful-api-icon.png" },
     { "name": "IntelliJ", "icon": "src/assets/tools/intellij-icon.png" },
     { "name": "NodeJS", "icon": "src/assets/tools/nodejs-icon.png" },
@@ -40,25 +41,30 @@ const skills_set2 = [
     { "name": "Webpack", "icon": "src/assets/tools/webpack-icon.png" },
     { "name": "Agile Methodology", "icon": "src/assets/tools/agile-icon.png" },
     { "name": "Jira", "icon": "src/assets/tools/jira-icon.png" }
-  ];  
+];  
 
 const SkillsShowcase = () => {
   return (
     <div className="skills-showcase">
-      <h3>Amazing Frameworks and Tools that I've Worked With</h3>
+      <h2>Skills & Tools</h2>
       <div className="skills-list">
+        {/* First row of skills (left to right) */}
         {skills_set1.map((skill, index) => (
           <div key={index} className="skill-item">
-            <img src={skill.icon} alt={`${skill.name} icon`} className="skill-icon" />
-            
+            {/* Use img tag for the icon with the src attribute set to the full path */}
+            <img src={skill.icon} alt={skill.name} className="skill-icon" />
+            <p>{skill.name}</p>
           </div>
         ))}
       </div>
-      <div className="skills-list unique-effect">
+      
+      {/* Second row of skills (right to left) */}
+      <div className="skills-list listing2">
         {skills_set2.map((skill, index) => (
           <div key={index} className="skill-item">
-            <img src={skill.icon} alt={`${skill.name} icon`} className="skill-icon" />
-            
+            {/* Use img tag for the icon with the src attribute set to the full path */}
+            <img src={skill.icon} alt={skill.name} className="skill-icon" />
+            <p>{skill.name}</p>
           </div>
         ))}
       </div>

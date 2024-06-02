@@ -1,0 +1,63 @@
+/* WorkExperience.css */
+.we-work-experience {
+  margin-bottom: 50px;
+  width: 80vw; /* Set width to 80vw */
+  margin: 0 auto; /* Center the content */
+  background-color: rgb(15, 15, 16); /* Light gray background */
+  border: 2px solid #73717b; /* Border */
+  border-radius: 25px;
+  padding: 30px 40px; 
+}
+
+.we-timeline {
+  position: relative;
+  margin-left: 20px;
+}
+
+.we-experience {
+  position: relative;
+  display: flex; /* Align title and content in the same line */
+}
+
+.we-experience::before {
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: -20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #663dff; /* Timeline dot color */
+}
+
+.we-content {
+  padding-left: 30px;
+  font-size: 1.2rem; /* Increase font size */
+}
+
+h3 {
+  margin-bottom: 5px;
+  color: #333; /* Experience title color */
+  font-size: 1.5rem; /* Increase font size */
+}
+
+.we-company { /* Style for company name */
+  color: #888;
+  margin-bottom: 5px;
+  font-size: 1rem; /* Font size */
+}
+
+.we-date {
+  color: #777; /* Experience date color */
+  margin-bottom: 10px;
+  font-size: 1rem; /* Increase font size */
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+  font-size: 1.2rem; /* Increase font size */
+}

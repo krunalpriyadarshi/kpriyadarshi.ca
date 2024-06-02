@@ -8,28 +8,28 @@
     width: 80%;
     text-align: center;
     overflow: hidden; /* Hide the overflow to create a smooth scrolling effect */
-  }
-  
-  .skills-showcase h2 {
+}
+
+.skills-showcase h2 {
     font-size: 2rem;
     margin-bottom: 20px;
     color: #00796b; /* Header color */
-  }
-  
-  .skills-list {
+}
+
+.skills-list {
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
-    animation: scroll 20s linear infinite;
-    margin-bottom: 30px; 
-  }
+    margin-bottom: 20px; 
+    animation: scroll 20s linear infinite;/* Add margin to create gap between sets */
+}
 
-  .unique-effect{
-    animation: scroll2 20s linear infinite;
-  }
-  
-  .skill-item {
+.listing2{
+    animation: scroll-set2 20s linear infinite;
+}
+
+.skill-item {
     flex: 0 0 auto; /* Prevent flex items from shrinking */
     display: flex;
     flex-direction: column;
@@ -40,35 +40,36 @@
     border-radius: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     margin-right: 20px; /* Space between items */
-  }
-  
-  .skill-icon {
+}
+
+.skill-icon {
     width: 50px;
     height: 50px;
     margin-bottom: 10px;
-  }
-  
-  .skill-item p {
+}
+
+.skill-item p {
     margin: 0;
     font-size: 1rem;
     color: #333;
-  }
-  
-  @keyframes scroll {
-    0% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
+}
 
-  @keyframes scroll2 {
+/* First scrolling animation */
+@keyframes scroll {
     0% {
-      transform: translateX(5%);
+        transform: translateX(0%);
     }
     100% {
-      transform: translateX(-100%);
+        transform: translateX(-100%);
     }
-  }
-  
+}
+
+/* Second scrolling animation */
+@keyframes scroll-set2 {
+    0% {
+        transform: translateX(5%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

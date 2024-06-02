@@ -1,0 +1,196 @@
+/* Banner.css */
+
+.banner {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.content {
+  width: 800px;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.name {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.designation {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+.description {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin-bottom: 30px;
+  color: #bbb;
+}
+
+button {
+  margin: 20px;
+}
+
+.custom-btn {
+  width: 150px;
+  height: 60px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-size: medium;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+              7px 7px 20px 0px rgba(0,0,0,.1),
+              4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+.btn-11 {
+  border: none;
+  background: #663dff;
+  color: #fff;
+  overflow: hidden;
+}
+
+.btn-11:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-11:before {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  top: -180px;
+  left: 0;
+  width: 30px;
+  height: 100%;
+  background-color: #fff;
+  animation: shiny-btn1 3s ease-in-out infinite;
+}
+
+.btn-11:hover {
+  opacity: .7;
+}
+
+.btn-11:active {
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+              inset -4px -4px 6px 0 rgba(255,255,255,.2),
+              inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+@keyframes shiny-btn1 {
+  0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+  80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+  81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+  100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+}
+
+.bubble {
+  --_float-distance: -20px;
+  --_float-speed: 3000ms;
+  --_size: 200px;
+  
+  width: var(--_size);
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  position: absolute;
+  backdrop-filter: blur(5px);
+  box-shadow: 
+    inset 0 0.13vmin blue, 
+    inset 0 0.18vmin orange,
+    inset 0.1vmin 0.1vmin orange;
+  animation: floating var(--_float-speed) ease-in-out infinite;
+}
+
+.bubble::before,
+.bubble::after {
+  content: "";
+  position: absolute;
+  border-radius: inherit;
+}
+
+.bubble::before {
+  inset: 0;
+  backdrop-filter: blur(12px);
+  background-image: conic-gradient(
+    from -25deg at 80% 20%,
+    transparent 85%,
+    rgba(255,255,255,0.7) 94%,
+    transparent 94%
+  );
+  filter: blur(4px);
+}
+
+.bubble::after {
+  inset: -3px;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(3px);
+  z-index: -1;
+}
+
+@keyframes floating {
+  0%,100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(var(--_float-distance, -10px));
+  }
+}
+
+/* Additional styling for different bubbles */
+
+.bubble1 {
+  --_size: 350px;
+  top: 20%;
+  left: 15%;
+  --_float-speed: 4000ms;
+}
+
+.bubble2 {
+  --_size: 200px;
+  top: 30%;
+  right: 10%;
+  --_float-speed: 3500ms;
+}
+
+.bubble3 {
+  --_size: 150px;
+  bottom: 25%;
+  left: 35%;
+  --_float-speed: 4500ms;
+}
+
+.bubble4 {
+  --_size: 300px;
+  bottom: 20%;
+  right: 20%;
+  --_float-speed: 5000ms;
+}
+
+.bubble5 {
+  --_size: 220px;
+  top: 40%;
+  left: 50%;
+  --_float-speed: 3800ms;
+}

@@ -1,0 +1,36 @@
+/* Greetings.css */
+.greetings-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 70%;
+    margin: 30vh auto 10vh; /* Center horizontally */
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .greetings-icon-container,
+  .greetings-text-container {
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .hovered .greetings-icon-container {
+    transform: scale(1.2); /* Scale up icon on hover */
+  }
+  
+  .hovered .greetings-text-container {
+    transform: scale(1.1); /* Scale up text on hover */
+  }
+  
+  .greetings-icon {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .greetings-text {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  

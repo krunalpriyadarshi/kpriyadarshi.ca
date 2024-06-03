@@ -2,9 +2,8 @@ import React from 'react';
 import './App.css';
 import NavigationBar from './components/navigationBar/NavigationBar';
 import Banner from './components/banner/Banner';
-import Project from './components/project/Project';
 import Expeience from './components/experience/WorkExperience';
-import Footer from './components/footer/Footer';
+import Greetings from './components/greeting/Greetings';
 
 const App = () => {
 
@@ -12,8 +11,8 @@ const App = () => {
     <div>
       <NavigationBar />
       <Banner />
-      <Expeience />
-      <Project />
+      <Expeience /> 
+      <Greetings />
     </div>
   );
 }

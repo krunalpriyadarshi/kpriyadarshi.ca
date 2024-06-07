@@ -1,0 +1,27 @@
+/* MessageBar.css */
+.message-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+    z-index: 1000;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .mobile-message {
+    background-color: #ff4d4d; /* Red background */
+    color: white;
+  }
+  
+  .online {
+    background-color: #4caf50; /* Green background */
+    color: white;
+  }
+  
+  .offline {
+    background-color: #ff4d4d; /* Red background */
+    color: white;
+  }
+  

@@ -5,6 +5,7 @@ import Banner from './components/banner/Banner';
 import Expeience from './components/experience/WorkExperience';
 import Greetings from './components/greeting/Greetings';
 import MessageBar from './components/messageBar/MessageBar';
+import Certifications from './components/certifications/Certifications';
 
 const App = () => {
 
@@ -14,6 +15,7 @@ const App = () => {
       <MessageBar />
       <Banner />
       <Expeience /> 
+      <Certifications />
       <Greetings />
 
       {/* 
@@ -25,7 +27,7 @@ const App = () => {
       Mobile M - 375px
       Mobile S - 320px
       */}
-      
+
     </div>
   );
 }

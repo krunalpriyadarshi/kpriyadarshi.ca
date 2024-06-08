@@ -1,6 +1,5 @@
 .navigation-bar {
-  width: 60%;
-  min-width: 900px;
+  width: 75vw;
   margin: auto;
   margin-top: 50px;
   display: flex;
@@ -12,14 +11,13 @@
   top: 15px;
   z-index: 1000;
   transition: background-color 0.3s ease;
-  background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(5px);
   box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .navigation-bar.light {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(79, 68, 68, 0.2);
 }
 
 .left-section {

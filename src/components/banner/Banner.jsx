@@ -47,7 +47,7 @@ const Banner = () => {
         <p className="message description">Also a <span className="typing-text">{currentMessage}</span></p>
         <button 
           className="custom-btn btn-11" 
-          onClick={() => console.log("Krunal is hired")}
+          onClick={() => window.location.href= 'mailto:krunalpriyadarshi99@gmail.com'}
         >
           Contact Me
         </button>

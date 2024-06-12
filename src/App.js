@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import NavigationBar from './components/navigationBar/NavigationBar';
 import Banner from './components/banner/Banner';
 import Expeience from './components/experience/WorkExperience';
 import Greetings from './components/greeting/Greetings';
 import MessageBar from './components/messageBar/MessageBar';
 import Certifications from './components/certifications/Certifications';
+import Marquee from './components/marquee/Marquee';
 
 const App = () => {
 
@@ -15,6 +17,7 @@ const App = () => {
       <MessageBar />
       <Banner />
       <Expeience /> 
+      <Marquee />
       <Certifications />
       <Greetings />
 

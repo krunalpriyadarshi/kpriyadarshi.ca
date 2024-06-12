@@ -4,6 +4,7 @@
     position: relative;
     overflow: hidden;
     display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     background-color: #121212;

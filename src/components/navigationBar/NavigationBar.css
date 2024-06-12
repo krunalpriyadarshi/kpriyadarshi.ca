@@ -49,3 +49,10 @@
 .glow:hover {
   filter: drop-shadow(0px 0px 20px rgba(199, 0, 234, 0.7));
 }
+
+
+@media screen and (max-width: 768px) {
+  .nav-lastName{
+    display: none;
+  }
+}

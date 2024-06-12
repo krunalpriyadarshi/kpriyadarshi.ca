@@ -23,7 +23,7 @@ const experiences = [
       "Demonstrated strong problem-solving skills and attention to detail in resolving 25 technical challenges and implementing solutions effectively while gathering requirements for sprints, prioritizing tasks, and ensure timely delivery of project milestones."
     ]
   },
-  // Add more experiences as needed
+  // use codepen bookmark -> only show 1st experiecnce in full height plus use read more style.
 ];
 
 const WorkExperience = () => {

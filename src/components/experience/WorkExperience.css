@@ -1,12 +1,14 @@
+
+
 /* WorkExperience.css */
 .we-work-experience {
   margin-bottom: 50px;
-  width: 80vw; /* Set width to 80vw */
-  margin: 0 auto; /* Center the content */
-  background-color: rgb(15, 15, 16); /* Light gray background */
-  border: 2px solid #1d1d1f; /* Border */
+  width: 80vw;
+  margin: 0 auto;
+  background-color: rgb(15, 15, 16);
+  border: 2px solid #1d1d1f;
   border-radius: 25px;
-  padding: 30px 40px 30px 70px; 
+  padding: 30px 40px 30px 70px;
 }
 
 .we-timeline {
@@ -16,7 +18,8 @@
 
 .we-experience {
   position: relative;
-  display: flex; /* Align title and content in the same line */
+  display: flex;
+  margin-bottom: 20px;
 }
 
 .we-experience::before {
@@ -27,37 +30,50 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: #663dff; /* Timeline dot color */
+  background-color: #663dff;
 }
 
 .we-content {
   padding-left: 30px;
-  font-size: 1.2rem; /* Increase font size */
+  font-size: 1.2rem;
 }
 
 h3 {
   margin-bottom: 5px;
-  color: #333; /* Experience title color */
-  font-size: 1.5rem; /* Increase font size */
+  color: #333;
+  font-size: 1.5rem;
 }
 
-.we-company { /* Style for company name */
+.we-company {
   color: #888;
   margin-bottom: 5px;
-  font-size: 1rem; /* Font size */
+  font-size: 1rem;
 }
 
 .we-date {
-  color: #777; /* Experience date color */
+  color: #777;
   margin-bottom: 10px;
-  font-size: 1rem; /* Increase font size */
+  font-size: 1rem;
 }
 
 ul {
   padding-left: 20px;
+  margin-top: 10px;
 }
 
 li {
   margin-bottom: 5px;
-  font-size: 1.2rem; /* Increase font size */
+  font-size: 1.2rem;
+}
+
+.we-show-more {
+  color: #663dff;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.we-show-more:hover {
+  color: #4a2b9a;
 }

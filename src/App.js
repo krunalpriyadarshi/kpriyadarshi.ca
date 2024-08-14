@@ -8,6 +8,7 @@ import Greetings from './components/greeting/Greetings';
 import MessageBar from './components/messageBar/MessageBar';
 import Certifications from './components/certifications/Certifications';
 import Marquee from './components/marquee/Marquee';
+import Footer from './components/footer/Footer';
 
 const App = () => {
 
@@ -20,6 +21,7 @@ const App = () => {
       <Marquee />
       <Certifications />
       <Greetings />
+      <Footer />
 
       {/* 
       #4K - 2560px

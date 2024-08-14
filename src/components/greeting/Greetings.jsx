@@ -13,7 +13,7 @@ const Greetings = () => {
         <img src={hovered ? icon2 : icon1} alt="Icon" className="greetings-icon" />
       </div>
       <div className={`greetings-text-container ${hovered ? 'hovered' : ''}`}>
-        <p className="greetings-text">Nice meeting you ❤️</p>
+        <p className="greetings-text">Get in touch</p>
       </div>
     </div>
   );

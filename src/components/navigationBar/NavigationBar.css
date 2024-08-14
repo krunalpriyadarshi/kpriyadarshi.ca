@@ -25,25 +25,33 @@
   align-items: center;
 }
 
-.right-section {
-  display: flex;
-  gap: 15px;
-}
-
 .nav-name {
   margin: 0;
   margin-left: 20px;
   line-gap-override: 5px;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   font-size: 1.5rem;
   color: #ffffff;
+}
+
+.right-section {
+  display: flex;
+  cursor: pointer;
 }
 
 .icon {
   width: 30px;
   height: 30px;
-  margin-left: 10px;
-  cursor: pointer;
+  margin: 0px 20px;
+}
+
+.word-icon{  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: #ffffff;
+  margin: 0px 20px;
 }
 
 .glow:hover {

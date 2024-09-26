@@ -9,11 +9,15 @@ import MessageBar from './components/messageBar/MessageBar';
 import Certifications from './components/certifications/Certifications';
 import Marquee from './components/marquee/Marquee';
 import Footer from './components/footer/Footer';
+import LoopingDivs from './components/loopingDivs/LoopingDivs';
 
 const App = () => {
 
   return (
     <div>
+
+
+      
       <NavigationBar />
       <MessageBar />
       <Banner />
@@ -23,7 +27,18 @@ const App = () => {
       <Greetings />
       <Footer />
 
-      {/* 
+
+      {/*     
+      <LoopingDivs />  
+      <NavigationBar />
+      <MessageBar />
+      <Banner />
+      <Expeience /> 
+      <Marquee />
+      <Certifications />
+      <Greetings />
+      <Footer />
+
       #4K - 2560px
       Laptop L - 1440px
       Laptop - 1024px

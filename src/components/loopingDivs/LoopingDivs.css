@@ -1,0 +1,25 @@
+.looping-divs-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+  
+  .page1 {
+    background-color: lightcoral;
+  }
+  
+  .page2 {
+    background-color: lightseagreen;
+  }
+  
+  .page3 {
+    background-color: lightblue;
+  }
+  

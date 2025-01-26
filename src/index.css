@@ -13,14 +13,15 @@
 
 ::-webkit-scrollbar-thumb {
   background-color: #ffffff;
-  border-radius: 6px; /* Border around thumb */
+  border-radius: 6px;
+  /* Border around thumb */
 }
 
 body {
   margin: 0;
   padding: 0;
   background-color: black;
-  font-family: PP,helvetica,arial,sans-serif;
+  font-family: 'Funnel Sans', PP, helvetica, arial, sans-serif;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -40,10 +41,8 @@ body::before {
   width: 100vw;
   position: fixed;
   background: radial-gradient(4px 4px at 50% 50%,
-        var(--line) 2px,
-        transparent 2px var(--size)
-      )
-      50% 50% / var(--size) var(--size);
+      var(--line) 2px,
+      transparent 2px var(--size)) 50% 50% / var(--size) var(--size);
   mask: linear-gradient(-27deg, transparent 30%, black);
   top: 0;
   transform-style: flat;

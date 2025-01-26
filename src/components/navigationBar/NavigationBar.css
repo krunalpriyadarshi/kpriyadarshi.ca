@@ -6,14 +6,13 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 15px;
   position: sticky;
   top: 15px;
   z-index: 1000;
   transition: background-color 0.3s ease;
   backdrop-filter: blur(5px);
-  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .navigation-bar.light {

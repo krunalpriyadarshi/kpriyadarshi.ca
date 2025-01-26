@@ -10,6 +10,7 @@ import Certifications from './components/certifications/Certifications';
 import Marquee from './components/marquee/Marquee';
 import Footer from './components/footer/Footer';
 import LoopingDivs from './components/loopingDivs/LoopingDivs';
+import Projects from './components/projects';
 
 const App = () => {
 
@@ -22,6 +23,7 @@ const App = () => {
       <MessageBar />
       <Banner />
       <Expeience /> 
+      <Projects />
       <Marquee />
       <Certifications />
       <Greetings />

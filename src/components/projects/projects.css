@@ -1,0 +1,62 @@
+.projects {
+    margin-top: 20px;
+    background: rgb(15, 15, 16);
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 30px 70px;
+    border: 2px solid #1d1d1f;
+    border-radius: 25px;
+}
+.projects h1 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+.projects h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.project{
+    display: inline-flex;
+    margin-bottom: 100px;
+    position: relative;
+    gap: 50px;
+}
+.projects .project-info p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #ffffffa3;
+}
+.projects .project-info{
+    /* flex: 0 0 50%; */
+    flex-grow: 1;
+}
+.project .image{
+    flex: 0 0 40%;
+    position: relative;
+}
+.project img{
+    /* flex: 0 0 30%; */
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+}
+.project .technologies .title{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.project .technologies i{
+    font-size: 26px;
+}
+.project .technologies .icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15);
+    padding: 14px 28px;
+    border-radius: 15px;
+    width: fit-content;
+}

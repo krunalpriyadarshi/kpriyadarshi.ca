@@ -9,7 +9,7 @@
   
   .ma-container {
     text-align: center;
-    margin: 50px 0;
+    margin: 150px 0;
   }
   
   .ma-title {
@@ -26,7 +26,9 @@
     overflow: hidden;
     position: relative;
     margin: 0 auto;
-    padding-bottom: 18px;
+    padding: 150px;
+    border-radius: 30px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15);
   }
   .ma-marquee:before, .ma-marquee:after {
     position: absolute;

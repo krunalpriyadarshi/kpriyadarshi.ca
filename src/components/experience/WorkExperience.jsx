@@ -3,26 +3,26 @@ import './WorkExperience.css';
 
 const experiences = [
   {
+    company: "Way to Web",
+    title: "Full Stack Developer (Co-op)",
+    date: "May 2023 - September 2023",
+    desc: [
+      "Led the redevelopment of internal Issue Management System by integrating multiple new features, leading to efficient issue tracking and Handling using JAVA technologies.",
+      "Optimized the MVC architecture to streamline request and response handling, reducing processing time by 20%.",
+      "Gained expertise in crafting scalable and extensible code following to SOLID principles.",
+      "Debugged and optimizing existing code, resulting in a 10% reduction in app crashes and enhanced stability"
+    ]
+  },
+  {
     company: "Conga Pvt. Ltd.",
     title: "Software Developer",
-    date: "July 2021 - November 2022",
+    date: "January 2021 - November 2022",
     desc: [
       "Designed and developed multiple enterprise-level applications for National Express, driving $3.2 million of revenue using the latest technologies of JAVA, Spring Boot, React, VBA, Salesforce and AWS.",
       "Integrated React-based features to the API Gateway to enable dynamic action buttons for status updates.",
       "Engineered automated business logic for a configurable price matrix, which reduced manual errors by 30% and improved billing accuracy for over 1,000 transactions daily.",
       "Built an automated workflow that triggers based on user responses/actions to system-generated emails, improving process efficiency by 25%.",
       "CI/CD Pipeline Integration, Pull request, code reviews, load/stress testing, unit/integration/e2e testing."
-    ]
-  },
-  {
-    company: "Way to Web",
-    title: "Android Developer Intern",
-    date: "May 2023 - August 2023",
-    desc: [
-      "Led the redevelopment of internal Issue Management System by integrating multiple new features, leading to efficient issue tracking and Handling using JAVA technologies.",
-      "Optimized the MVC architecture to streamline request and response handling, reducing processing time by 20%.",
-      "Gained expertise in crafting scalable and extensible code following to SOLID principles.",
-      "Debugged and optimizing existing code, resulting in a 10% reduction in app crashes and enhanced stability"
     ]
   }
 ];

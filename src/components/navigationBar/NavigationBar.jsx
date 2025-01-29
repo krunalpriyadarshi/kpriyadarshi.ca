@@ -5,7 +5,7 @@ import mailIcon from '../../assets/imgs/gmail.png';
 
 const NavigationBar = () => {
   const redirectToCV= ()=>{
-    window.open('https://drive.google.com/file/d/1LHv571ivIEFOlp9Zz2Kk2Xcq4xc_KnQD/view?usp=drive_link', '_blank');
+    window.open('https://drive.google.com/file/d/1I6tahuCWvomLKkwpbOltuDVNEaN0ah0l/view?usp=sharing', '_blank');
   }
 
   const redirectToLinkedin= ()=>{

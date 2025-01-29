@@ -104,6 +104,40 @@ function Projects() {
                     />
                 </div>
             </div>
+            <div className="project">
+                <div className="image">
+                    <img
+                        src="https://images.unsplash.com/photo-1734597949864-0ee6637b0c3f?q=80&w=700&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Project 4"
+                    />
+                </div>
+                <div className="project-info">
+                    <h2>Fake News Detection
+                        <a
+                            href="https://github.com/krunalpriyadarshi/FakeNewsDetector"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ textDecoration: "none", color: "inherit", padding: "0 20px" }}
+                        >
+                            <i className="fab fa-github"></i>
+                        </a></h2>
+                    <p>
+                    Developed a high-accuracy fake news detection model (98%) by integrating multiple machine learning (ML)
+                    classifiers And a category classifier to classify news into relevant domains.
+                        <br/>
+                        Designed and developed a user-friendly frontend interface to enhance usability of the fake news detection system.
+                    </p>
+                    <div className="technologies">
+                        <div className="title">Technologies used:</div>
+                        <div className="icons">
+                            <i class="fab fa-python"></i>
+                            <text>ML Library</text> 
+                            <text>Flask</text>
+                            <text>SQLite</text>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

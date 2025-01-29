@@ -7,22 +7,36 @@ function Projects() {
             <h1>Projects</h1>
             <div className="project">
                 <div className="project-info">
-                    <h2>Project 1</h2>
+                    <h2>
+                        Job-Port
+                        <a
+                            href="https://github.com/krunalpriyadarshi/JobPort"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ textDecoration: "none", color: "inherit", padding: "0 20px" }}
+                        >
+                            <i className="fab fa-github"></i>
+                        </a>
+                    </h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed in odio at ligula aliquet tempus. Nullam id mi
-                        auctor, tempus tortor nec, vestibulum nunc. Nullam in
-                        purus nec eros fermentum tincidunt. Nullam in purus nec
-                        eros fermentum tincidunt. Nullam in purus nec eros
-                        fermentum tincidunt.
+                        <b>Designed</b> and <b>developed</b> a dynamic Job Portal application, enabling seamless interaction between Job Seekers, 
+                        Recruiters, and Admins, resulting in a 20% increase in user engagement.
+                        <br />
+                        Implemented <b>Role-based access control (RBAC)</b> rendering and authorization, simplifying access management and 
+                        reducing frontend complexity by 40%.
+                        <br />
+                        Wrote a client-server based CLI application for easy data retrieval and manipulation in the database, providing 
+                        statistical insights.
                     </p>
                     <div className="technologies">
                         <div className="title">Technologies used:</div>
                         <div className="icons">
-                            <i className="fab fa-html5"></i>
-                            <i className="fab fa-react"></i>
-                            <i className="fab fa-aws"></i>
-                            <i className="fab fa-docker"></i>
+                            <i className="fab fa-java" title="Java"></i>
+                            <i className="fab fa-node-js" title="Node.js"></i>
+                            <i className="fab fa-react" title="React.js"></i>
+                            <i className="fab fa-aws" title="AWS"></i>
+                            <i className="fas fa-database" title="Database"></i>
+                            <i className="fab fa-docker" title="Docker"></i>
                         </div>
                     </div>
                 </div>
@@ -41,43 +55,44 @@ function Projects() {
                     />
                 </div>
                 <div className="project-info">
-                    <h2>Project 2</h2>
+                    <h2>AWS DynamoDB with Lambda</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed in odio at ligula aliquet tempus. Nullam id mi
-                        auctor, tempus tortor nec, vestibulum nunc. Nullam in
-                        purus nec eros fermentum tincidunt. Nullam in purus nec
-                        eros fermentum tincidunt. Nullam in purus nec eros
-                        fermentum tincidunt.
+                        Handled 2+ GB CSV upload to S3 and integrated DynamoDB via Lambda, demonstrating strong big data handling and processing skills.
+                        <br/>
+                        Explored 4 distributed system features like auto-scaling, replication, partitioning, fault-tolerance.
+                        <br/>
+                        Gained hands-on expertise in AWS services, serverless architecture, data storage, and cloud computing.
                     </p>
                     <div className="technologies">
                         <div className="title">Technologies used:</div>
                         <div className="icons">
-                            <i className="fab fa-html5"></i>
-                            <i className="fab fa-react"></i>
-                            <i className="fab fa-aws"></i>
-                            <i className="fab fa-docker"></i>
+                            <i className="fab fa-aws" title="AWS"></i>
+                            <text>DynamoDB</text>
+                            <text>Lambda</text>
+                            <text>S3</text>
+                            <text>CloudWatch</text>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="project">
                 <div className="project-info">
-                    <h2>Project 3</h2>
+                    <h2>Code Quality Report Analyzer </h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed in odio at ligula aliquet tempus. Nullam id mi
-                        auctor, tempus tortor nec, vestibulum nunc. Nullam in
-                        purus nec eros fermentum tincidunt. Nullam in purus nec
-                        eros fermentum tincidunt. Nullam in purus nec eros
-                        fermentum tincidunt.
+                        Developed a Web Application using React, Java and Python to analyze the quality of a GitHub Repository.
+                        <br/>
+                        Implemented 3 CI/CD pipelines using GitLab and Docker, for automation of build, test, and deployment stages.
+                        <br/>
+                        Achieved over 90% test coverage with JUnit and Mockito, applying Test-Driven Development (TDD) methodology.
                     </p>
                     <div className="technologies">
                         <div className="title">Technologies used:</div>
                         <div className="icons">
-                            <i className="fab fa-html5"></i>
+                            <i className="fab fa-java"></i>
+                            <i className="fab fa-python"></i>
                             <i className="fab fa-react"></i>
                             <i className="fab fa-aws"></i>
+                            <i className="fab fa-gitlab"></i>
                             <i className="fab fa-docker"></i>
                         </div>
                     </div>

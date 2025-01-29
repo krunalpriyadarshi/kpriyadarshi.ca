@@ -7,11 +7,11 @@ const experiences = [
     title: "Software Developer",
     date: "July 2021 - November 2022",
     desc: [
-      "Led development and managed projects which brought over $20M+ in value to the company despite complex requirements.",
-      "Developed clean and efficient code and went through multiple code review cycles to ensure adherence to coding standards, maintaining high-quality software by 40%.",
-      "Implemented rigorous testing methodologies, resulting in a 25% reduction in bugs/issues post-deployment.",
-      "Orchestrated over 50 updates to testing playgrounds and 5 updates to production environments, streamlining processes by approximately 30% while ensuring consistent performance, upholding code quality standards, and maintaining error-free functionality throughout all deployments, resulting in a 20% increase in efficiency.",
-      "Collaborated closely with stakeholders resulting in an 80% reduction in Client-BA-Dev cycle."
+      "Designed and developed multiple enterprise-level applications for National Express, driving $3.2 million of revenue using the latest technologies of JAVA, Spring Boot, React, VBA, Salesforce and AWS.",
+      "Integrated React-based features to the API Gateway to enable dynamic action buttons for status updates.",
+      "Engineered automated business logic for a configurable price matrix, which reduced manual errors by 30% and improved billing accuracy for over 1,000 transactions daily.",
+      "Built an automated workflow that triggers based on user responses/actions to system-generated emails, improving process efficiency by 25%.",
+      "CI/CD Pipeline Integration, Pull request, code reviews, load/stress testing, unit/integration/e2e testing."
     ]
   },
   {
@@ -19,7 +19,10 @@ const experiences = [
     title: "Android Developer Intern",
     date: "May 2023 - August 2023",
     desc: [
-      "Demonstrated strong problem-solving skills and attention to detail in resolving 25 technical challenges and implementing solutions effectively while gathering requirements for sprints, prioritizing tasks, and ensuring timely delivery of project milestones."
+      "Led the redevelopment of internal Issue Management System by integrating multiple new features, leading to efficient issue tracking and Handling using JAVA technologies.",
+      "Optimized the MVC architecture to streamline request and response handling, reducing processing time by 20%.",
+      "Gained expertise in crafting scalable and extensible code following to SOLID principles.",
+      "Debugged and optimizing existing code, resulting in a 10% reduction in app crashes and enhanced stability"
     ]
   }
 ];

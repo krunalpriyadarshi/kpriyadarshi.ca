@@ -1,0 +1,32 @@
+.Main3d {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between child elements */
+    align-items: center; /* Center items vertically */
+    height: 100vh; /* Full height of the viewport */
+    padding: 20px; /* Add some padding */
+}
+
+.childL {
+    flex: 1; /* Allow the 3D element to take available space */
+    display: flex; /* Use flexbox for the child element */
+    justify-content: center; /* Center the Spline element horizontally */
+    align-items: center; /* Center the Spline element vertically */
+}
+
+.childR {
+    flex: 1; /* Allow the text content to take available space */
+    padding-left: 20px; /* Add space between the 3D element and text */
+    text-align: left; /* Align text to the left */
+}
+
+h1 {
+    margin: 0; /* Remove default margin */
+}
+
+h3 {
+    margin: 10px 0; /* Add some margin for spacing */
+}
+
+p {
+    margin: 10px 0; /* Add some margin for spacing */
+}
